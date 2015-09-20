@@ -5,8 +5,10 @@
 %%% Handles setting up Graphite reporting and dynamic addition, subscription
 %%% and updates for several exometer entry types.
 %%%
-%%% Following https://github.com/emauton/basic_metrics, we do everything
-%%% dynamically instead of using exometer's static configuration options.
+%%% Following
+%%% <a href="https://github.com/emauton/basic_metrics">basic_metrics</a>, we
+%%% do everything dynamically instead of using exometer's static configuration
+%%% options.
 -module(workbench_metrics).
 -export([init/0, counter/2, gauge/2, histogram/2,
          riak_core/1, vm/0]).
