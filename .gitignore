@@ -5,6 +5,7 @@ deps
 *.plt
 erl_crash.dump
 ebin
+edoc
 rel/workbench
 .rebar
 package
