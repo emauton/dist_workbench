@@ -1,0 +1,22 @@
+%%-*- mode: erlang -*-
+
+%% @doc Hosted Graphite API key for reporting metrics to.
+{mapping, "workbench.metrics.key", "workbench_metrics.key", [
+  {datatype, string},
+  {default, "my-api-key"},
+  hidden
+]}.
+
+%% @doc Carbon endpoint hostname to report metrics to.
+{mapping, "workbench.metrics.host", "workbench_metrics.host", [
+  {datatype, string},
+  {default, "carbon.hostedgraphite.com"},
+  hidden
+]}.
+
+%% @doc Carbon endpoint port to report metrics to.
+{mapping, "workbench.metrics.port", "workbench_metrics.port", [
+  {datatype, integer},
+  {default, 2003},
+  hidden
+]}.

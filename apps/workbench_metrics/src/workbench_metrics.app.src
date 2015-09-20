@@ -1,0 +1,17 @@
+%% -*- erlang -*-
+{application, workbench_metrics,
+ [
+  {description, "Erlang distribution workbench metrics."},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  eper,
+                  exometer_core,
+                  exometer,
+                  recon
+                 ]},
+  {mod, { workbench_metrics_app, []}},
+  {env, []}
+ ]}.
