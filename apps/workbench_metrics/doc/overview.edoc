@@ -23,7 +23,7 @@ into Hosted Graphite.
 `workbench_metrics' presents an
 <a href="http://www.erlang.org/doc/design_principles/des_princ.html">Erlang/OTP supervision hierarchy</a>
 with the following shape:
-<center><img src="workbench_metrics_processes.png" width="600" alt="workbench_metrics process tree diagram"></img></center>
+<center><img src="workbench_metrics_processes.png" width="300" alt="workbench_metrics process tree diagram"></img></center>
 (<a href="https://docs.google.com/drawings/d/1FJrYqU2pbtx9ruSDPK-PbU3x_sz8jHlOax9dFyoszmo/edit">source</a>)
 
 The <strong>bold</strong> components correspond to modules provided by the
