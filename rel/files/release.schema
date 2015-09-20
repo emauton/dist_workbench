@@ -1,4 +1,6 @@
 %%-*- mode: erlang -*-
+%% See https://github.com/basho/cuttlefish
+%% From https://github.com/basho/riak/blob/develop/rel/files/riak.schema
 
 %% @doc Where to emit the default log messages (typically at 'info'
 %% severity):

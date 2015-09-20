@@ -3,7 +3,7 @@
 # gen_dev dev4 vars.src vars
 #
 # Generate an overlay config for devNNN from vars.src and write to vars
-#
+# From https://github.com/basho/riak/blob/develop/rel/gen_dev
 
 NAME=$1
 TEMPLATE=$2

@@ -1,4 +1,5 @@
 %%-*- mode: erlang -*-
+%% See https://github.com/basho/cuttlefish
 
 %% @doc Hosted Graphite API key for reporting metrics to.
 {mapping, "workbench.metrics.key", "workbench_metrics.key", [

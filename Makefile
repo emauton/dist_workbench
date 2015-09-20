@@ -1,6 +1,8 @@
+# Most of this Makefile depends upon Basho's work. See
+#   https://github.com/basho/riak &
+#   https://github.com/basho/node_package
 REBAR            = rebar
 
-# Set by deps/node_package build.
 OVERLAY_VARS    ?=
 
 .PHONY: deps docs
