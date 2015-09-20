@@ -33,3 +33,4 @@ test:
   post:
     - cp package/packages/*.deb ${CIRCLE_ARTIFACTS}
     - bash ./circle/copy-docs.sh
+    - bash ./circle/copy-coverage.sh
