@@ -1,3 +1,10 @@
+# CircleCI setup for Erlang based originally on Parroty's for Elixir:
+#   https://parroty00.wordpress.com/2014/06/29/elixir-on-circleci/
+# In concert with the Makefile, this ensures that lint, xref, dialyzer
+# etc. get run on the project as part of CI as well as testing.
+#
+# A Debian package and EDoc are stored as build artifacts.
+
 machine:
   environment:
     PATH: ${HOME}/erlang/bin:${PATH}
