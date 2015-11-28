@@ -67,7 +67,7 @@ tests: compile xref dialyze eunit
 
 docs: docsclean
 	$(REBAR) skip_deps=true doc
-	cp apps/workbench_metrics/doc/*.png apps/workbench_metrics/edoc
+	cp apps/workbench/doc/*.png apps/workbench/edoc
 
 docsclean:
 	rm -rf apps/*/edoc

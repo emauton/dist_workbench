@@ -1,0 +1,8 @@
+%%-*- mode: erlang -*-
+%% See https://github.com/basho/cuttlefish
+
+%% @doc Dummy configuration value for now.
+{mapping, "workbench.dummy", "workbench.dummy", [
+  {datatype, string},
+  {default, "dummy"}
+]}.
